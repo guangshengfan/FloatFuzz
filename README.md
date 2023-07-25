@@ -4,18 +4,25 @@ Here are all tools and benchmarks of the APSEC2022 paper "NuMFUZZ: A Floating-Po
 
 
 1) All experiments were done on an "Ubuntu20" machine. This project has already contained the corresponding llvm+clang.
-	cd FloatFuzz
+	
+ 	cd FloatFuzz
 	
 	
 
 2) under the "tool" directory, install NumFuzz by:
-	sudo sh install_NumFuzz.sh
+	
+ 	sudo sh install_NumFuzz.sh
+
    install covFPFUZZ by:
+   
 	sudo sh install_covFPFUZZ.sh
+
    other tool are similar.
  
-3) under the "test" directory, run test of NumFuzz by:
+4) under the "test" directory, run test of NumFuzz by:
+   
 	sh run_test4_NumFuzz.sh
+
    other tools are similar.
    
 
